@@ -26,6 +26,6 @@ btn.addEventListener('click', function () {
 });
 for (var i = 2; i <= 25; i++) {
     var newImg = document.createElement('img');
-    newImg.src = 'img/img' + i + '.jpg';
+    newImg.src = 'Img/img' + i + '.jpg';
     container.appendChild(newImg);
 }
